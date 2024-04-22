@@ -138,6 +138,134 @@ li {
 }
 
 #course_icon_shadow {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 /* Courses section end */
+
+/* Online courses starts here  */
+.online_courses {
+  margin-top: 5rem;
+  text-align: center;
+}
+.online_course_cards {
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.online_course_card {
+  padding: 20px 15px;
+  border-radius: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 1rem;
+}
+.online_course_title {
+  color: #413960;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+.card_img {
+  width: 331px;
+  height: 234px;
+}
+.card_title {
+  color: #413960;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.card_para {
+  color: #585859;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+#card_btn {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  padding: 8px 20px;
+}
+.card_descrip{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Online courses ends here  */
+
+/* testimonial starts here  */
+.testimonial{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial_title{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+.testimonial_body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.testimonial_img{
+  width: 120px;
+}
+.testimonial_description{
+  width: 580px;
+  color: #424242;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* testimonial ends here  */
+
+/* footer stars here  */
+
+.footer{
+  margin-top: 5rem;
+  padding: 3rem 0 1.5rem 0;
+  background: #282531;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer_content{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.footer_content_left{
+  flex: 2;
+  line-height: 30px;
+}
+.footer_content_right{
+  flex: 1;
+  line-height: 30px;
+  cursor: pointer;
+}
+h5{
+ color: #a1a1a1;
+}
+.footer_descript{
+  margin-top: 3rem;
+  color: #929292;
+}
+/* footer stars here  */
